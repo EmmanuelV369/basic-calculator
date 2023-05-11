@@ -46,6 +46,8 @@ cursor: pointer;
 border-radius: 15px;
 color: white;
 margin: 5px;
+transition: background-color .3s;
+
 }
 
 
@@ -60,4 +62,17 @@ color: black;
 
 .others {
   background-color: rgba(128, 128, 128, 0.325);
+}
+
+.numbers:active {
+  background-color: rgb(112, 112, 112);
+}
+
+.orange:active {
+  background-color: rgb(255, 187, 61);
+}
+
+.gray:active {
+
+  background-color: rgb(164, 164, 164);
 }
